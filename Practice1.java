@@ -4,6 +4,7 @@
 
 package com.mycompany.practice1;
 import java.util.Scanner;
+import java.util.Arrays;
 
 /**
  *
@@ -22,8 +23,8 @@ public class Practice1 {
         double [] number = new double [cases]; 
         
         double sum = 0; 
-        
-      for (int i = 0; i < cases; i++) { 
+       
+        for (int i = 0; i < cases; i++) { 
             System.out.println(i + 1 + "#"  );
             number[i] = inp.nextDouble();
             sum += number[i];
@@ -39,6 +40,7 @@ public class Practice1 {
         System.out.printf("Average  = %.2f\n", average);
         System.out.println("is the minimum " + number[0]);
         System.out.println("is the maximum " + number[number.length - 1 ]);
+        
         
 
     }
