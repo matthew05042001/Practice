@@ -23,7 +23,7 @@ public class Practice1 {
         
         double sum = 0; 
         
-        for (int i = 0; i < cases; i++) { 
+      for (int i = 0; i < cases; i++) { 
             System.out.println(i + 1 + "#"  );
             number[i] = inp.nextDouble();
             sum += number[i];
@@ -32,12 +32,13 @@ public class Practice1 {
             
         }
         
+        Arrays.sort(number);
         double average = (double) sum / cases;
+      
         
         System.out.printf("Average  = %.2f\n", average);
         System.out.println("is the minimum " + number[0]);
-        System.out.println("is the maximum " + number[number.length - 2 ]);
-        
+        System.out.println("is the maximum " + number[number.length - 1 ]);
         
 
     }
