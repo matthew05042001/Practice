@@ -55,5 +55,5 @@ Enter number of test cases:
 3#
 10.0
 Average  = 12.50
-is the minimum 12.5
-is the maximum 15.0
+is the minimum 10.0
+is the maximum 12.5
